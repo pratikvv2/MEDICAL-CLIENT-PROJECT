@@ -1,0 +1,17 @@
+.page-wrapper {
+    // min-height: 100vh;
+    // width: 100%;
+
+
+    .space-top {
+        margin-top: 75px;
+    }
+
+
+
+    @media screen and (max-width: 792px) {
+        .space-top {
+            margin-top: 15px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+p {
+    margin-bottom: 5px !important;
+}
+
+.card-wrapper {
+    width: max-content;
+    min-width: 16rem;
+    width: 24%;
+}
+
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .card-wrapper {
+        width: 32% !important;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .card-wrapper {
+        width: 48% !important;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .card-wrapper {
+        width: 100% !important;
+    }
+}

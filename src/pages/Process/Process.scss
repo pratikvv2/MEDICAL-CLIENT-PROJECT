@@ -1,0 +1,13 @@
+@media screen and (max-width: 450px) {
+    .centered-content {
+        width: 100%;
+        height: max-content;
+
+        .fit-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    
+}

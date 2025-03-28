@@ -1,0 +1,30 @@
+.alert-container {
+
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+
+
+    .alert-box {
+        width: 30%;
+        display: flex;
+        padding: 0 10px;
+        justify-content: space-between;
+        height: 50px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .alert-container {
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+
+        width: 100%;
+
+        .alert-box {
+            width: 95%;
+        }
+    }
+}

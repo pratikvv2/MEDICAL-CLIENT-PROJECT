@@ -1,0 +1,51 @@
+.ia-header {
+
+    .ia-navbar {
+        background-color: dodgerblue;
+        color: white;
+    }
+
+    .profilePic {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .logo {
+        height: 60px !important;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .dropdown-toggle.show.nav-link,
+    // this is to change the Dropdown menu's text color in larger screens
+    .dropdown-toggle.nav-link {
+        color: white;
+    }
+
+    .profilePic {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+    }
+}
+
+// Overrding Bootstrap's default css
+.dropdown-menu[data-bs-popper] {
+    left: auto !important;
+    right: 15% !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+// Overrding Bootstrap -end
