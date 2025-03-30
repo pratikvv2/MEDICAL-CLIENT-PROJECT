@@ -9,7 +9,7 @@ import { getFirestore } from "firebase/firestore";
 
  
   let  firebaseConfig = {
-        apiKey: "AIzaSyCLwv3qliyb_sWF7HAhc6mfu0d4zRcEki8",
+       apiKey: "AIzaSyCLwv3qliyb_sWF7HAhc6mfu0d4zRcEki8",
         authDomain: "ivhydration-test.firebaseapp.com",
         projectId: "ivhydration-test",
         storageBucket: "ivhydration-test.appspot.com",
